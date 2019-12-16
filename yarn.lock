@@ -820,32 +820,33 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.2.tgz#690a1475b84f2a884fd07cd797c00f5f31356ea8"
   integrity sha512-ce5d3q03Ex0sy4R14722Rmt6MT07Ua+k4FwDfdcToYJcMKNtRVQvJ6JCAPdAmAnbRb6CsX6aYb9m96NGod9uTw==
 
-"@vapper/configer-vue-cli@^0.5.5":
-  version "0.5.5"
-  resolved "https://registry.yarnpkg.com/@vapper/configer-vue-cli/-/configer-vue-cli-0.5.5.tgz#c8ac53c6ae623ecda0fc053fe52add8b19937c66"
-  integrity sha512-UEFQPI07y258tevfLkV1/KeL5VAPJu5xjUYv1QYJpQBO11Bzebwzw+TrBgAeQGuhsq6hUJF1kEgwe11m011u8g==
+"@vapper/configer-vue-cli@^0.7.0":
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/@vapper/configer-vue-cli/-/configer-vue-cli-0.7.0.tgz#b3b4b76e7c3843283b5be629180a19b3907ff696"
+  integrity sha512-higX5qJaLUl4OyD8OuG8FVsE7KwE8lgpsVs4uNCVR08Nd1p/e+kGvr/g8Q1io9YCJABWZeakD/f24JbllvwLPA==
   dependencies:
-    "@vapper/webpack-config" "^0.5.2"
+    "@vapper/webpack-config" "^0.5.4"
     chalk "^2.4.2"
     gzip-size "^5.1.1"
     pretty-ms "^5.0.0"
     string-width "^4.1.0"
     text-table "^0.2.0"
 
-"@vapper/core@^0.14.1":
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/@vapper/core/-/core-0.14.1.tgz#5d37d15585bad4d48da487c8d3fbfd6491d7b40f"
-  integrity sha512-1YnyoYWWf5XUK+NgM2Nh865MDc5GpbD2vkRK5nxP+a9N4p8sAxPkght6E6z2MgpALa6SClwdO7Zst6EL3e4fJw==
+"@vapper/core@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@vapper/core/-/core-0.17.0.tgz#44fe215818e3497ee009b4ae7e504ff678ec2318"
+  integrity sha512-DXrnuQGv/HyvVIfb8K7THHq6ZGK2TtR8ZSF6sHUq38tJ3gKD9NR9T5SwwZhi8r4UOHgeQwju6NBhK8sDcowaWQ==
   dependencies:
     "@hapi/joi" "^15.1.0"
-    "@vapper/configer-vue-cli" "^0.5.5"
+    "@vapper/configer-vue-cli" "^0.7.0"
     cac "^6.5.2"
     compression "^1.7.4"
     connect "^3.7.0"
+    dotenv "^8.2.0"
     finalhandler "^1.1.2"
     fs-extra "^8.1.0"
     html-minifier "^4.0.0"
-    lodash.merge "^4.6.2"
+    lodash.mergewith "^4.6.2"
     lodash.template "^4.5.0"
     lru-cache "^5.1.1"
     memory-fs "^0.4.1"
@@ -858,10 +859,10 @@
     webpack-dev-middleware "^3.7.0"
     webpack-hot-middleware "^2.25.0"
 
-"@vapper/webpack-config@^0.5.2":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@vapper/webpack-config/-/webpack-config-0.5.2.tgz#389d1a61b8cec3600a4d9916f414c4e53cd1848c"
-  integrity sha512-8esZ9oumhFV/TjMoYSmR9ot0Vt9MzUoQeuQ47y8JWoUDWCSlmkrGbeEF0rzVVmMGiPbB63VyWEIaDsekak7yiA==
+"@vapper/webpack-config@^0.5.4":
+  version "0.5.4"
+  resolved "https://registry.yarnpkg.com/@vapper/webpack-config/-/webpack-config-0.5.4.tgz#217abc4d77d54273160b50971e8cc1e127d001b1"
+  integrity sha512-70UIFSrEtjleSqDH6oUxS0jA3gW1BoxudMR/6+mw5RKRIGyT4kcFNVXdZP4AI4wJDxDJNhquWp6pARtwjFwD7A==
   dependencies:
     time-fix-plugin "^2.0.6"
     webpack "^4.38.0"
@@ -4603,10 +4604,10 @@ lodash.memoize@^4.1.2:
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
   integrity sha1-vMbEmkKihA7Zl/Mj6tpezRguC/4=
 
-lodash.merge@^4.6.2:
+lodash.mergewith@^4.6.2:
   version "4.6.2"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
-  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+  resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#617121f89ac55f59047c7aec1ccd6654c6590f55"
+  integrity sha512-GK3g5RPZWTRSeLSpgP8Xhra+pnjBC56q9FZYe1d5RN3TJ35dbkGy3YqBSMbyCrlbi+CM9Z3Jk5yTL7RCsqboyQ==
 
 lodash.template@^4.4.0, lodash.template@^4.5.0:
   version "4.5.0"

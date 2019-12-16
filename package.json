@@ -8,7 +8,7 @@
     "start": "vapper start"
   },
   "dependencies": {
-    "@vapper/core": "^0.14.1",
+    "@vapper/core": "^0.17.0",
     "core-js": "^3.3.2",
     "vue": "^2.6.10",
     "vue-router": "^3.1.3"
